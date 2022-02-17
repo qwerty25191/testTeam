@@ -1,3 +1,3 @@
-Jasur
+
 SaidUmar
 Umid
