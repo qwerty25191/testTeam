@@ -6,7 +6,11 @@
     outline: none;
 }
 .body{
+<<<<<<< HEAD
     /*width: 1000px;*/
+=======
+    width: 900px;
+>>>>>>> b83ed32efee9d9526787d3fe56ea2393147beddf
 }
 body, html {
     width: 100%;
