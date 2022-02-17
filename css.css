@@ -7,7 +7,6 @@
 }
 .body{
     width: 1000px;
-    color: dodgerblue;
 }
 body, html {
     width: 100%;
@@ -27,7 +26,7 @@ header {
 }
 
 header #logo {
-    color: #ff0007;
+    color: #3f63ff;
     cursor: pointer;
 }
 
