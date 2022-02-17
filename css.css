@@ -7,6 +7,7 @@
 }
 .body{
     width: 1000px;
+    min-width: border-box;
 }
 body, html {
     width: 100%;
