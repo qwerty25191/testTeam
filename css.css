@@ -71,10 +71,10 @@ header #logo span {
     margin-bottom: 10px;
 }
 
-#about > a {color: #fff}
+#about > a {color: #3f63ff}
 
 #about > a:hover {
-    color: #b0b0b0;
+    color: rgba(24, 124, 216, 0.73);
     text-decoration: underline;
 }
 
