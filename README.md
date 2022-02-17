@@ -1,3 +1,0 @@
-
-SaidUmar
-Umid
