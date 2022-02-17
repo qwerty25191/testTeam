@@ -5,6 +5,9 @@
     text-decoration: none;
     outline: none;
 }
+.body{
+    width: 1000px;
+}
 body, html {
     width: 100%;
     height: 100%;
@@ -23,7 +26,7 @@ header {
 }
 
 header #logo {
-    color: #ff0007;
+    color: #3f63ff;
     cursor: pointer;
 }
 
