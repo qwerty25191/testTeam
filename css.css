@@ -6,7 +6,7 @@
     outline: none;
 }
 .body{
-    width: 1000px;
+    /*width: 1000px;*/
 }
 body, html {
     width: 100%;
@@ -99,10 +99,11 @@ header.fixed #logo {
 
 #top {
     width: 100%;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-dentist-woman-cartoon-background-image_64500.jpg);
+    background-image: url(img/photo-smiling-dentist-standing-with-arms-crossed-with-her-colleague-showing-okay-sign.jpg);
+
     background-blend-mode: multiply;
     background-color: #2e3a44;
-    background-size: cover;
+    background-size: 100%;
     text-align: center;
     color: #fff;
 }
