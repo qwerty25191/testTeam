@@ -1,3 +1,2 @@
 Jasur
-SaidUmar
 Umid
