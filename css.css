@@ -71,10 +71,10 @@ header #logo span {
     margin-bottom: 10px;
 }
 
-#about > a {color: #fff}
+#about > a {color: #3f63ff}
 
 #about > a:hover {
-    color: #b0b0b0;
+    color: rgba(24, 124, 216, 0.73);
     text-decoration: underline;
 }
 
@@ -99,7 +99,7 @@ header.fixed #logo {
 
 #top {
     width: 100%;
-    background-image: url(https://c.dns-shop.ru/thumb/st4/fit/760/600/c6cc6d8f9f4da7275e8be4622c351421/q93_d7e125287b0749ad757a3fdce99480c0e2a0040d94ec6a45c5691fc66e136142.jpg);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-dentist-woman-cartoon-background-image_64500.jpg);
     background-blend-mode: multiply;
     background-color: #2e3a44;
     background-size: cover;
