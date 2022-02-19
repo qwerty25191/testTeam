@@ -376,3 +376,12 @@ h1, h2, h3, h4, h5 {
     font-size: 0.95em;
     margin-bottom: 40px;
 }
+#overview h2{
+    margin-top: -80px;
+}
+#overview h1{
+    display: inline;
+    margin-bottom: 100px;
+    margin-left: 110px;
+    padding: 10px;
+}
