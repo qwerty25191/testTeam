@@ -1,12 +1,22 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Oswald:wght@600&family=Poppins&display=swap');
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     outline: none;
+    font-family: 'Oswald', sans-serif;
+
 }
 .body{
+<<<<<<< HEAD
     width: 900px;
+=======
+
+    /*width: 1000px;*/
+
+    width: 800px;
+
+>>>>>>> f7c98a15675af37dcf6f60b52295455121c86063
 }
 body, html {
     width: 100%;
@@ -97,8 +107,10 @@ header.fixed #logo {
 
 /* Главный блок на сайте */
 
-#top {
+#top   {
+
     width: 100%;
+
     background-image: url(img/photo-smiling-dentist-standing-with-arms-crossed-with-her-colleague-showing-okay-sign.jpg);
 
     background-blend-mode: multiply;
@@ -135,7 +147,11 @@ header.fixed #logo {
         font-size: 0.9em;
     }
 }
-
+.text , span{
+    margin-left: 400px;
+    font-size: 50px;
+    margin-top: -150px;
+}
 #top h1 {
     padding-top: 20%;
 }
@@ -363,4 +379,16 @@ h1, h2, h3, h4, h5 {
     color: #4a4a4a;
     font-size: 0.95em;
     margin-bottom: 40px;
+}
+#overview h2{
+    margin-top: -80px;
+}
+#overview h1{
+    display: inline-flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 110px;
+    padding: 10px;
+    font-size: 40px;
+    justify-content: space-around;
 }
