@@ -8,11 +8,15 @@
 
 }
 .body{
+<<<<<<< HEAD
+    width: 900px;
+=======
 
     /*width: 1000px;*/
 
     width: 800px;
 
+>>>>>>> f7c98a15675af37dcf6f60b52295455121c86063
 }
 body, html {
     width: 100%;
@@ -376,7 +380,21 @@ h1, h2, h3, h4, h5 {
     font-size: 0.95em;
     margin-bottom: 40px;
 }
+<<<<<<< HEAD
 .container{
     margin-left: 10px;
     margin-right: 10px;
+=======
+#overview h2{
+    margin-top: -80px;
+}
+#overview h1{
+    display: inline-flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 110px;
+    padding: 10px;
+    font-size: 40px;
+    justify-content: space-around;
+>>>>>>> 99274d521d7e5519b5c6f6d8e991e419bbef54f7
 }
