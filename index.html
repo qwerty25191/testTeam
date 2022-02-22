@@ -17,77 +17,35 @@
     <script>
         new WOW().init();
     </script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<header>
-    <div id="logo">
-        <span>Ud</span>
+<div class="navbar">
+    <div class="brend"><a href="">Dentist</a></div>
+    <div class="toggleNav">
+        <span>Navbar</span>
     </div>
-    <div id="about">
-        <a href="Услуги">Услуги</a>
-        <a href="Цены">Цены</a>
-        <a href="Расположение">Расположение</a>
-
+    <div class="NavMenu">
+        <ul>
+            <li><a href="">Item1</a></li>
+            <li><a href="">Item2</a></li>
+            <li><a href="">Item3</a></li>
+            <li><a href="">Item4</a></li>
+        </ul>
     </div>
-</header>
-
-<div id="top">
-    <h1 class="wow animate__animated animate__bounceIn">Umident стомотология высшего уровня</h1>
-
+</div>
+<div class="header">
+    <h1>salom Lorem ipsum <br/>dolor sit amet.</h1>
 </div>
 
-<section id="Услуги">
-    <div id="main">
-        <div class="intro">
-            <h2 class="wow animate_animated animate__backInLeft">О нас</h2>
-            <span class="wow animate_animated animate__backInLeft"></span>
-        </div>
-        <div class="text">
-            <span>
-                Русский
-            </span>
-        </div>
-    </div>
-</section>
-
-<section id="Преимущество">
-    <div id="overview">
-        <h2>Цены и услуги</h2>
-
-
-            <h1>пломба-200$</h1>
-        <h1>плfefe-100$</h1>
-        <h1>пломбаfefe-300$</h1>
-        </div>
-
-
-        </div>
-    </div>
-</section>
-
-<section>
-    <div id="faq">
-        <main>
-            <div>
-                <span class="title">Защищён ли сайт?</span><br>
-                <span class="heading">информция про сайт!</span>
-                <p>абалабалаьщлоагшцураге</p>
-            </div>
-            <div>
-                <span class="title">Оплата</span><br>
-                <p>пцкецкнкнкннкенекуецеукуапукепку</p>
-            </div>
-            <div>
-                <span class="title">Гарантии</span><br>
-                <span class="heading">Какие гарантии есть что вас не обманут!</span>
-                <p>цуацашцашцашцпашцпашцапшцпаш</p>
-            </div>
-        </main>
-    </div>
-</section>
-
-
+asdsad
 <script>
+    const toggle = document.querySelector('.toggleNav')
+    const navM = document.querySelector('.NavMenu')
+
+    toggle.onclick=()=>{
+        navM.classList.toggle("active")
+    }
 </script>
 </body>
 </html>
